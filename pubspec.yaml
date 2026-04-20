@@ -1,0 +1,71 @@
+name: project2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider: ^4.1.1
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.25.3
+  firebase_auth: ^4.17.7
+
+  image_picker: ^1.0.0
+  firebase_storage: ^11.5.7
+  path: ^1.8.3
+  permission_handler: ^11.0.0
+
+  camera: ^0.10.5+2
+  path_provider: ^2.0.15
+
+  # TFLite dependencies for AI inference
+  tflite_flutter: ^0.11.0
+  image: ^4.0.7
+
+  audioplayers: ^5.2.1
+  cloud_firestore: ^4.15.7
+
+  # Weather & location
+  http: ^1.2.0
+  intl: ^0.19.0
+  geolocator: ^11.0.0
+
+  # Calender
+  table_calendar: ^3.0.9
+
+  share_plus: ^7.2.1
+  url_launcher: ^6.2.6
+  qr_flutter: ^4.1.0
+
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.3
+
+  fl_chart: ^0.63.0
+
+  dart_rss: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/model/leaf_model.tflite
+    - assets/model/labels.json
+    - assets/images/splash_bg.jpg
+    - assets/images/padi-3602921_1280.jpg
+    - assets/images/padi-705586_1280.jpg
+    - assets/images/Screenshot_2025-06-14_020127-removebg-preview.png
+    - assets/sounds/camera_click.mp3
+
+
+

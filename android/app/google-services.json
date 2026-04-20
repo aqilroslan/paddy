@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056329983882",
+    "project_id": "paddy-674ab",
+    "storage_bucket": "paddy-674ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056329983882:android:e87f14b7a237d3b9754a73",
+        "android_client_info": {
+          "package_name": "com.example.project2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD0jsTRD7qOIAkRti50nDBxWrd7rbIsA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
